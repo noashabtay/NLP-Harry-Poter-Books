@@ -1,0 +1,1598 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-07-30">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="color" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="partition" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Charlie" label="Charlie">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hagrid" label="Hagrid">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Percy" label="Percy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mr" label="Mr">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Harry Potter" label="Harry Potter">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ginny" label="Ginny">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bill" label="Bill">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Fred Weasley" label="Fred Weasley">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Ludo Bagman" label="Ludo Bagman">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Cornelius Fudge" label="Cornelius Fudge">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ron" label="Ron">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Albus Dumbledore" label="Albus Dumbledore">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hermione Granger" label="Hermione Granger">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Barty Crouch" label="Barty Crouch">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Cedric Diggory" label="Cedric Diggory">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Karkaroff" label="Karkaroff">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bertha Jorkins" label="Bertha Jorkins">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dobby" label="Dobby">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Winky" label="Winky">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Professor Trelawney" label="Professor Trelawney">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Parvati Patil" label="Parvati Patil">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="McGonagall" label="McGonagall">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="MadEye Moody" label="MadEye Moody">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Maxime" label="Maxime">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Snape" label="Snape">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Filch" label="Filch">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Fleur Delacour" label="Fleur Delacour">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Beauxbatons" label="Beauxbatons">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Seamus Finnigan" label="Seamus Finnigan">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Neville" label="Neville">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Viktor Krum" label="Viktor Krum">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Draco Malfoy" label="Draco Malfoy">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Pigwidgeon" label="Pigwidgeon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hedwig" label="Hedwig">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sirius" label="Sirius">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Padma" label="Padma">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Dean Thomas" label="Dean Thomas">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Rita Skeeter" label="Rita Skeeter">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="George" label="George">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Gryffindor" label="Gryffindor">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Durmstrang" label="Durmstrang">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Muggle" label="Muggle">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Vernon" label="Vernon">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Petunia" label="Petunia">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Voldemort" label="Voldemort">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Severus" label="Severus">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Volkov" label="Volkov">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Vulchanov" label="Vulchanov">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Goyle" label="Goyle">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Crabbe" label="Crabbe">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Madam Pomfrey" label="Madam Pomfrey">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Slytherin" label="Slytherin">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Arthur Weasley" label="Arthur Weasley">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lee Jordan" label="Lee Jordan">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Frank Bryce" label="Frank Bryce">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Wormtail" label="Wormtail">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Dimitrov" label="Dimitrov">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Levski" label="Levski">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Moran" label="Moran">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Amos Diggory" label="Amos Diggory">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Molly" label="Molly">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Peeves" label="Peeves">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Weasleys" label="Weasleys">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Muggles" label="Muggles">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Dudley" label="Dudley">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="POTTER" label="POTTER">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Cho" label="Cho">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dursleys" label="Dursleys">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Colin Creevey" label="Colin Creevey">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Myrtle" label="Myrtle">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fawkes" label="Fawkes">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Horntail" label="Horntail">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Flitwick" label="Flitwick">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Hufflepuff" label="Hufflepuff">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Mullet" label="Mullet">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Troy" label="Troy">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Angelina" label="Angelina">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Charlie" target="Hagrid" id="0" weight="42">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie" target="Percy" id="1" weight="82">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie" target="Mr" id="2" weight="30">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie" target="Harry Potter" id="3" weight="43">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie" target="Ginny" id="4" weight="28">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie" target="Bill" id="5" weight="202">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie" target="Fred Weasley" id="6" weight="71">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="MadEye Moody" id="7" weight="60">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="Maxime" id="8" weight="115">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="Ron" id="9" weight="158">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="Albus Dumbledore" id="10" weight="94">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="Hermione Granger" id="11" weight="155">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="Draco Malfoy" id="12" weight="33">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="Harry Potter" id="13" weight="455">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="Professor Trelawney" id="14" weight="53">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="Rita Skeeter" id="15" weight="56">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hagrid" target="Karkaroff" id="16" weight="51">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Percy" target="Ludo Bagman" id="17" weight="39">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Percy" target="Ron" id="18" weight="66">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Percy" target="Hermione Granger" id="19" weight="28">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Percy" target="Barty Crouch" id="20" weight="97">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Percy" target="Mr" id="21" weight="101">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Percy" target="Harry Potter" id="22" weight="104">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Percy" target="Bill" id="23" weight="66">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Percy" target="George" id="24" weight="29">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Percy" target="Fred Weasley" id="25" weight="71">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Ludo Bagman" id="26" weight="256">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Cornelius Fudge" id="27" weight="51">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="MadEye Moody" id="28" weight="44">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Ron" id="29" weight="126">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Vernon" id="30" weight="34">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Albus Dumbledore" id="31" weight="91">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Hermione Granger" id="32" weight="143">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Viktor Krum" id="33" weight="82">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Draco Malfoy" id="34" weight="76">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Snape" id="35" weight="36">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Arthur Weasley" id="36" weight="50">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Winky" id="37" weight="82">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Barty Crouch" id="38" weight="1337">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Filch" id="39" weight="46">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Harry Potter" id="40" weight="491">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Professor Trelawney" id="41" weight="34">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Cedric Diggory" id="42" weight="438">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Bill" id="43" weight="125">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="George" id="44" weight="49">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Karkaroff" id="45" weight="44">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Amos Diggory" id="46" weight="76">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Fred Weasley" id="47" weight="2777">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Molly" id="48" weight="30">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Mr" target="Muggle" id="49" weight="33">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Ludo Bagman" id="50" weight="248">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Bertha Jorkins" id="51" weight="26">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Dobby" id="52" weight="392">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Parvati Patil" id="53" weight="43">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="McGonagall" id="54" weight="79">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Cornelius Fudge" id="55" weight="72">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="MadEye Moody" id="56" weight="354">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Maxime" id="57" weight="62">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Ron" id="58" weight="2243">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Seamus Finnigan" id="59" weight="29">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Neville" id="60" weight="78">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Vernon" id="61" weight="115">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Albus Dumbledore" id="62" weight="545">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Goyle" id="63" weight="32">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Hermione Granger" id="64" weight="1115">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Viktor Krum" id="65" weight="279">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Madam Pomfrey" id="66" weight="40">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Draco Malfoy" id="67" weight="151">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Snape" id="68" weight="364">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Winky" id="69" weight="132">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Barty Crouch" id="70" weight="213">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Hedwig" id="71" weight="64">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Sirius" id="72" weight="342">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Filch" id="73" weight="37">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Weasleys" id="74" weight="54">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Wormtail" id="75" weight="78">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Fleur Delacour" id="76" weight="116">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Dudley" id="77" weight="45">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="POTTER" id="78" weight="31">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Professor Trelawney" id="79" weight="251">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Slytherin" id="80" weight="71">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Cedric Diggory" id="81" weight="443">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Cho" id="82" weight="89">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Ginny" id="83" weight="46">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Bill" id="84" weight="69">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Voldemort" id="85" weight="329">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Beauxbatons" id="86" weight="42">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Rita Skeeter" id="87" weight="102">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="George" id="88" weight="155">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Gryffindor" id="89" weight="88">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Karkaroff" id="90" weight="136">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Dursleys" id="91" weight="67">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Colin Creevey" id="92" weight="36">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Fred Weasley" id="93" weight="401">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Durmstrang" id="94" weight="58">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Myrtle" id="95" weight="42">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Fawkes" id="96" weight="27">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Horntail" id="97" weight="38">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Harry Potter" target="Muggle" id="98" weight="43">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ginny" target="Ron" id="99" weight="88">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ginny" target="Hermione Granger" id="100" weight="65">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ginny" target="George" id="101" weight="47">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ginny" target="Fred Weasley" id="102" weight="50">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Bill" target="Ron" id="103" weight="86">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Bill" target="Hermione Granger" id="104" weight="53">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Bill" target="Fred Weasley" id="105" weight="130">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Ludo Bagman" id="106" weight="48">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Ron" id="107" weight="230">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Vernon" id="108" weight="26">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Hermione Granger" id="109" weight="137">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Draco Malfoy" id="110" weight="46">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Lee Jordan" id="111" weight="33">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="George" id="112" weight="687">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Amos Diggory" id="113" weight="41">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Molly" id="114" weight="36">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Angelina" id="115" weight="28">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Fred Weasley" target="Muggle" id="116" weight="34">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ludo Bagman" target="Cornelius Fudge" id="117" weight="26">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ludo Bagman" target="Ron" id="118" weight="28">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ludo Bagman" target="Albus Dumbledore" id="119" weight="31">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ludo Bagman" target="Hermione Granger" id="120" weight="41">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Ludo Bagman" target="Barty Crouch" id="121" weight="103">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ludo Bagman" target="Cedric Diggory" id="122" weight="34">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ludo Bagman" target="Karkaroff" id="123" weight="44">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Cornelius Fudge" target="Albus Dumbledore" id="124" weight="74">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Dobby" id="125" weight="31">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="McGonagall" id="126" weight="37">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="MadEye Moody" id="127" weight="73">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Seamus Finnigan" id="128" weight="45">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Neville" id="129" weight="90">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Albus Dumbledore" id="130" weight="59">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Hermione Granger" id="131" weight="1698">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Viktor Krum" id="132" weight="116">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Draco Malfoy" id="133" weight="72">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Snape" id="134" weight="80">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Barty Crouch" id="135" weight="84">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Pigwidgeon" id="136" weight="55">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Hedwig" id="137" weight="35">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Sirius" id="138" weight="125">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Fleur Delacour" id="139" weight="30">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Professor Trelawney" id="140" weight="60">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Cedric Diggory" id="141" weight="34">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Padma" id="142" weight="43">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Dean Thomas" id="143" weight="43">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Rita Skeeter" id="144" weight="43">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="George" id="145" weight="156">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Gryffindor" id="146" weight="39">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Karkaroff" id="147" weight="31">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Durmstrang" id="148" weight="34">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Ron" target="Muggle" id="149" weight="37">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Dobby" id="150" weight="42">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="McGonagall" id="151" weight="31">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="MadEye Moody" id="152" weight="77">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Maxime" id="153" weight="46">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Hermione Granger" id="154" weight="35">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Viktor Krum" id="155" weight="48">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Snape" id="156" weight="141">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Winky" id="157" weight="37">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Barty Crouch" id="158" weight="90">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Sirius" id="159" weight="52">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Professor Trelawney" id="160" weight="330">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Cedric Diggory" id="161" weight="34">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Voldemort" id="162" weight="93">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Karkaroff" id="163" weight="91">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Albus Dumbledore" target="Severus" id="164" weight="40">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Parvati Patil" id="165" weight="25">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="MadEye Moody" id="166" weight="55">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Neville" id="167" weight="74">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Viktor Krum" id="168" weight="99">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Draco Malfoy" id="169" weight="90">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Snape" id="170" weight="58">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Winky" id="171" weight="67">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Barty Crouch" id="172" weight="34">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Hedwig" id="173" weight="31">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Sirius" id="174" weight="92">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Professor Trelawney" id="175" weight="39">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="George" id="176" weight="53">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Gryffindor" id="177" weight="50">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Hermione Granger" target="Muggle" id="178" weight="49">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Barty Crouch" target="MadEye Moody" id="179" weight="36">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Barty Crouch" target="Viktor Krum" id="180" weight="30">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Barty Crouch" target="Snape" id="181" weight="57">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Barty Crouch" target="Winky" id="182" weight="96">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Barty Crouch" target="Sirius" id="183" weight="42">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Barty Crouch" target="Professor Trelawney" id="184" weight="26">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Barty Crouch" target="Karkaroff" id="185" weight="60">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Cedric Diggory" target="Viktor Krum" id="186" weight="73">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Cedric Diggory" target="Fleur Delacour" id="187" weight="68">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Cedric Diggory" target="Cho" id="188" weight="41">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Cedric Diggory" target="Voldemort" id="189" weight="31">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Cedric Diggory" target="Hufflepuff" id="190" weight="34">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Karkaroff" target="MadEye Moody" id="191" weight="37">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Karkaroff" target="Maxime" id="192" weight="96">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Karkaroff" target="Viktor Krum" id="193" weight="35">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Karkaroff" target="Snape" id="194" weight="115">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Karkaroff" target="Professor Trelawney" id="195" weight="132">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Karkaroff" target="Durmstrang" id="196" weight="29">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Dobby" target="Winky" id="197" weight="119">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Dobby" target="Professor Trelawney" id="198" weight="51">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Professor Trelawney" target="McGonagall" id="199" weight="722">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Professor Trelawney" target="MadEye Moody" id="200" weight="223">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Professor Trelawney" target="Maxime" id="201" weight="55">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Professor Trelawney" target="Snape" id="202" weight="115">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Professor Trelawney" target="Filch" id="203" weight="31">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Professor Trelawney" target="Peeves" id="204" weight="31">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Professor Trelawney" target="Flitwick" id="205" weight="72">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="McGonagall" target="MadEye Moody" id="206" weight="38">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="McGonagall" target="Maxime" id="207" weight="31">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="McGonagall" target="Snape" id="208" weight="55">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="MadEye Moody" target="Snape" id="209" weight="109">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="MadEye Moody" target="Filch" id="210" weight="29">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Maxime" target="Fleur Delacour" id="211" weight="25">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Maxime" target="Beauxbatons" id="212" weight="27">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Snape" target="Sirius" id="213" weight="54">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Snape" target="Filch" id="214" weight="44">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Snape" target="Severus" id="215" weight="65">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Filch" target="Peeves" id="216" weight="26">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Fleur Delacour" target="Viktor Krum" id="217" weight="71">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Beauxbatons" target="Durmstrang" id="218" weight="109">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Seamus Finnigan" target="Neville" id="219" weight="28">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Seamus Finnigan" target="Dean Thomas" id="220" weight="82">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Neville" target="Dean Thomas" id="221" weight="40">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Viktor Krum" target="Durmstrang" id="222" weight="47">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Draco Malfoy" target="Goyle" id="223" weight="116">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Draco Malfoy" target="Slytherin" id="224" weight="25">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Draco Malfoy" target="Crabbe" id="225" weight="137">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="George" target="Lee Jordan" id="226" weight="43">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Muggle" target="Muggles" id="227" weight="333">
+        <attvalues>
+          <attvalue for="1" value="g" />
+        </attvalues>
+      </edge>
+      <edge source="Vernon" target="Petunia" id="228" weight="83">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Petunia" target="Dudley" id="229" weight="68">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Voldemort" target="Wormtail" id="230" weight="84">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Volkov" target="Vulchanov" id="231" weight="41">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Goyle" target="Crabbe" id="232" weight="241">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Frank Bryce" target="Wormtail" id="233" weight="30">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Dimitrov" target="Levski" id="234" weight="28">
+        <attvalues>
+          <attvalue for="1" value="k" />
+        </attvalues>
+      </edge>
+      <edge source="Dimitrov" target="Moran" id="235" weight="32">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Moran" target="Mullet" id="236" weight="57">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Moran" target="Troy" id="237" weight="46">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+      <edge source="Mullet" target="Troy" id="238" weight="51">
+        <attvalues>
+          <attvalue for="1" value="r" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
