@@ -3,19 +3,19 @@
 A NLP project about the connections between the characters in the Harry Potter books
 -------------------------------------
 
-The 'text' directory includes the text books.
+'text' directory includes the text books.
 
-The 'characters_from_books' directory inclueds .pkl files with list of characters accurding to BERT NER characters output.
+'characters_from_books' directory inclueds .pkl files with list of characters accurding to BERT NER characters output.
 
-The 'related_characters_books' inclueds .pkl files with sentiments between each two characters.
+'related_characters_books' inclueds .pkl files with sentiments between each two characters.
 
-The 'fullbooks_graphs' directory inclueds .gml files with graph of a full book accurding to ngram output.
+'fullbooks_graphs' directory inclueds .gml files with graph of a full book accurding to ngram output.
 
-The 'divided_books_graphs' directory inclueds .gml files with graph of a partial books accurding to ngram output.
+'divided_books_graphs' directory inclueds .gml files with graph of a partial books accurding to ngram output.
 
-The 'community_results_full_book'directory inclueds .gml and .gexf files of graph with an attribute of community for each node in a full book.
+'community_results_full_book'directory inclueds .gml and .gexf files of graph with an attribute of community for each node in a full book.
 
-The 'community_results_partition' directory inclueds .gml and .gexf files of graph with an attribute of community for each node in a partial book.
+'community_results_partition' directory inclueds .gml and .gexf files of graph with an attribute of community for each node in a partial book.
 
 -----------------------------------
 
@@ -27,6 +27,3 @@ The 'community_results_partition' directory inclueds .gml and .gexf files of gra
 
 -----------------------------------
 
-
-
-Google Collab:
