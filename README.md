@@ -13,7 +13,7 @@ A NLP project about the connections between the characters in the Harry Potter b
 
 'divided_books_graphs' directory inclueds .gml files with graph of a partial books accurding to ngram output.
 
-'community_results_full_book'directory inclueds .gml and .gexf files of graph with an attribute of community for each node in a full book.
+'community_results_full_book' directory inclueds .gml and .gexf files of graph with an attribute of community for each node in a full book.
 
 'community_results_partition' directory inclueds .gml and .gexf files of graph with an attribute of community for each node in a partial book.
 
