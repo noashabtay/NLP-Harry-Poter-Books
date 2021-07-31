@@ -29,12 +29,8 @@ def draw_graph(graph: nx.Graph):
     """
     Draws the graph.
     """
-    # nx.draw(graph, with_labels=True)
-    # nx.draw_kamada_kawai(graph, with_labels=True)
-    # edge_labels = nx.get_edge_attributes(graph, 'sentiment')
     colors = [graph[u][v]['color'] for u, v in graph.edges()]
     nx.draw(graph, nx.spring_layout(graph), edge_color=colors, with_labels=True)
-    # nx.draw_circular(graph, with_labels=True)
 
     plt.show()
 
@@ -73,43 +69,4 @@ def load_all_graphs():
 
     return all_graphs
 
-
-# with open('related_characters_book_6.pkl', 'rb') as rel_characters_book_1:
-#     rel_characters_book_1 = pickle.load(rel_characters_book_1)
-
-# print(rel_characters_book_1)
-# graph = construct_network_from_neighbours_list(rel_characters_book_1)
-# nodes_centralities = compute_centrality_for_nodes(graph)
-# print(nodes_centralities['Harry Potter'])
-# print(nodes_centralities['Hermione'])
-# print(nodes_centralities['Ron'])
-# nx.write_gml(graph, "Full_Network_Book_6.gml")
-# nx.write_gml(graph, "/Users/noashabtay/PycharmProjects/NLP/network_full.gml")
-# draw_graph(graph)
-
-
-# all_graphs = load_all_graphs()
-# print(" Weasley Centrality:")
-# counter = 0
-# for graph in all_graphs:
-#     counter += 1
-#     if 'Ginny Weasley' in graph.nodes:
-#         print(f"{counter}: {compute_centrality_for_nodes(graph)['Ginny Weasley']}")
-#     elif 'Ginny' in graph.nodes:
-#         print(f"{counter}: {compute_centrality_for_nodes(graph)['Ginny']}")
-#     else:
-#         print(f"{counter}: Did not appear or too insignificant")
-
-related_characters = []
-for i in range(3):
-    with open(f'related_characters_book_7_part_{i+1}.pkl', 'rb') as rel_characters_file:
-        related_characters.append(pickle.load(rel_characters_file))
-
-for i in range(3):
-    graph = construct_network_from_neighbours_list(related_characters[i])
-    nx.write_gml(graph, f"Full_Network_Book_7_part_{i+1}.gml")
-
-# graph = nx.read_gml('Full_Network_Book_2_part_2.gml')
-#
-# draw_graph(graph)
 

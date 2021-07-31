@@ -2,22 +2,26 @@ import nltk
 import re
 import pickle
 import collections
-from afinn import Afinn
 from nameparser import HumanName
 from nltk.sentiment import SentimentIntensityAnalyzer
 import sys
 import string
 import math
-import numpy
 import statistics
 
-sys.path.append('/Users/royjudes/Documents/Studies/Sem B/Social Dynamics/Project')
-from BERT_NER.bert import Ner
+# sys.path.append('/Users/royjudes/Documents/Studies/Sem B/Social Dynamics/Project')
+# from BERT_NER.bert import Ner # need to import bert project
 
 nltk.download(["vader_lexicon"])
 
 
 def book_division(book_path, num_of_division):
+    """
+    This function divide the given book path to a given num of division.
+    :param book_path: str path to book
+    :param num_of_division: int
+    :return: list od str
+    """
     with open(book_path, 'rt') as book_text:
         text = ''
         divisions = []
@@ -92,6 +96,10 @@ def save_in_file(filename: str, obj):
 
 
 def get_entities_bert(book_text: list, book_vocab: set, model):
+    """
+    Gets a list of the tokens in the book, the vocabulary and the BERT model, and generates a dictionary
+    with the different entities detected by the BERT model and the amount of times each one appeared in the book.
+    """
     personalities = []
     text = ""
     counter = 0
@@ -100,6 +108,7 @@ def get_entities_bert(book_text: list, book_vocab: set, model):
         if word == '':
             continue
 
+        # creates a 250 words long batches as an efficient input for the model
         text = f"{text} {word}"
         counter += 1
         if counter == 250 or 250 * num_of_batches + counter == len(book_text):
@@ -109,10 +118,13 @@ def get_entities_bert(book_text: list, book_vocab: set, model):
             output = model.predict(text)
             text = ""
             for i in range(len(output)):
+                # removing punctuations - this is done in this step for better entity detection
                 word_tag = output[i]
                 word = word_tag['word'].translate(str.maketrans(dict.fromkeys(string.punctuation)))
                 if word in "!?/&-:;@—'‘“”…’ \n":
                     continue
+
+                # composition of the entities and insertion into a list
                 if word_tag['tag'] == 'B-PER':
                     personalities.append(word)
                 elif word_tag['tag'] == 'I-PER' and output[i - 1]['tag'] == 'B-PER' and len(personalities) > 0 and \
@@ -120,12 +132,15 @@ def get_entities_bert(book_text: list, book_vocab: set, model):
                     personalities[
                         len(personalities) - 1] = f"{personalities[len(personalities) - 1]} {word}"
 
+    # counting entities appearances
     characters_counter_dict = {}
     for character in personalities:
         characters_counter_dict[character] = personalities.count(character)
 
+    # removing insignificant characters
     filtered_characters = [k for k, v in characters_counter_dict.items() if v > 3]
 
+    # removing false positives, i.e. words tagged as entities and shouldn't have
     personalities_set = set(filtered_characters)
     fixed_personalities = []
     add = True
@@ -159,6 +174,13 @@ def polarity_score(sentence: str):
 
 
 def get_ngrams(txt, characters_list, n=10, threshold_names=5, threshold_sentiments=1.25):
+    """
+    Gets the text of the book after name occurences conversion, a list of characters in the text, the N-gram size,
+    a threshold for common appearances to be considered as a relation, and a threshold for the sentiment determination,
+    and finds the relations between the characters. The algorithm goes over the N-grams and looks for character pairs in
+    it, count the amount of N-grams each pair has and classifies each one's sentiment. In case the proportion between
+    the sentiments exceeds the sentiment threshold, the relation is classified as the larger sentiment, else neutral.
+    """
     characters_dict = {}
     related_characters = []
     ngrams = nltk.FreqDist(nltk.ngrams(txt, n))
@@ -170,14 +192,14 @@ def get_ngrams(txt, characters_list, n=10, threshold_names=5, threshold_sentimen
                 text_ngram = ' '.join(ngram)
                 if characters_list[i] in text_ngram and characters_list[j] in text_ngram:
                     counter += 1
+                    # classifies the ngram's sentiment
                     temp_score = polarity_score(text_ngram)
-                    # positive += temp_score[0]
-                    # negative += temp_score[1]
                     if temp_score[0] > temp_score[1]:
                         positive += 1
                     elif temp_score[1] > temp_score[0]:
                         negative += 1
 
+            # classifies the sentiment of the whole relation
             if negative == 0 or positive == 0:
                 if negative > 0:
                     sentiment = 'Negative'
@@ -197,6 +219,7 @@ def get_ngrams(txt, characters_list, n=10, threshold_names=5, threshold_sentimen
             characters_dict[(characters_list[i], characters_list[j])] = (sentiment, counter)
 
     for pair in characters_dict.keys():
+        # reduces insignificant relations from the final list
         if characters_dict[pair][1] >= threshold_names:
             related_characters.append((pair, characters_dict[pair][0], characters_dict[pair][1]))
 
@@ -471,26 +494,24 @@ def get_character_relations_from_book(book_path: str, run_bert: bool, num_divisi
     return related_characters
 
 
-# book_path = '/Users/noashabtay/Desktop/studies/sem 8/nlp/project/parse_dialog-master/Harry Potter and the Sorcerer\'s Stone.txt'
-book_path = '/Users/royjudes/Documents/Studies/Sem B/Social Dynamics/Project/text/Harry Potter and the Deathly Hallows.txt'
-# related_characters = get_character_relations_from_book(book_path, True, threshold_names=25)
-appearances_book_parts = get_character_relations_from_book(book_path, False, num_divisions=3)
-for i in range(len(appearances_book_parts)):
-    with open(f'related_characters_book_7_part_{i+1}.pkl', 'wb') as book_part_file:
-        pickle.dump(appearances_book_parts[i], book_part_file)
-
-
-
-# for part in appearances_book_parts:
-#     print(part)
-
-# save_in_file('related_characters_book_6.pkl', related_characters)
-# with open('related_characters_book_1.pkl', 'rb') as a:
-#     b = pickle.load(a)
-#
-# d = "!?/&-:;@—'‘“”…’ \n"
-# for i in range(len(b)):
-#     if b[i][0][0] in d or b[i][0][1] in d:
-#         b.remove(b[i])
-#
-# print(b)
+def statistic_characters():
+    """
+    this function prints statistic we wanted to show in the report -
+    how many characters in each book
+    how many nicknames names are for each characters
+    :return:
+    """
+    for i in range(1, 8):
+        path = f"characters_from_books/characters_from_book_{i}.pkl"
+        with open(path, 'rb') as characters_file:
+            characters_dict = pickle.load(characters_file)
+            characters_list = list(characters_dict.keys())
+            unique_names_dict = get_unique_names_dictionary(characters_list, characters_dict)
+            unique_characters_list = list(set(unique_names_dict.values()))
+            print(f"book number: {i} , unique characters: {len(unique_characters_list)}")
+            for unique_name in unique_characters_list:
+                print(f"{unique_name=}")
+                for name in unique_names_dict:
+                    if unique_names_dict[name] == unique_name:
+                        print(name)
+                print("-"*50)
